@@ -61,9 +61,6 @@ En conséquence, pour la suite du projet, nous allons travailler avec les donné
 
 Cette sélection de données permettra de construire un modèle de prédiction plus précis et adapté au contexte des patients souffrant d'épilepsie. En outre, cette approche permettra d'optimiser les ressources utilisées en évitant de traiter des données inutiles ou non pertinentes pour le problème de prédiction.
 
-## Description du code
-Le module comprend une classe appelée "Visualisation" et plusieurs méthodes pour charger, sélectionner, lire, formater et concaténer les données EEG. La méthode "init" prend trois arguments pour spécifier le nom du patient, les informations sur les enregistrements et la durée d'enregistrement souhaitée. Les autres méthodes sont utilisées pour effectuer des opérations spécifiques sur les données, telles que la sélection d'enregistrements, la lecture de fichiers de données, le formattage et la concaténation des données. En fin de compte, cet outil offre une solution pratique pour visualiser les enregistrements d'EEG d'un patient spécifique dans un contexte de recherche clinique ou de diagnostic médical.
-
 ## Conclusion
 En conclusion, ce projet a pour objectif de développer un modèle de prédiction de crises d'épilepsie à partir des données EEG de la base de données CHBMIT. L'analyse des données a permis de déterminer deux paramètres importants pour la prédiction des crises : la durée D, qui permet de distinguer les premières crises des répliques, et la durée S, qui permet de déterminer si deux crises successives doivent être considérées comme une seule ou non.
 
